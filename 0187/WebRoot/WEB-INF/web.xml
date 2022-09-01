@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+<listener>
+<listener-class>Listener.OnlineCountContextListener</listener-class>
+</listener>
+<listener>
+<listener-class>Listener.OnlineCountHttpSessionListener</listener-class>
+</listener>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>control.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <servlet-class>control.CheckImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>control.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>VisitServlet</servlet-name>
+    <servlet-class>control.VisitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamServlet</servlet-name>
+    <servlet-class>control.ExamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>control.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ForgetPasswordServlet</servlet-name>
+    <servlet-class>control.ForgetPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <servlet-class>control.UpdatePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryAllUserServlet</servlet-name>
+    <servlet-class>control.QueryAllUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoTypeAddServlet</servlet-name>
+    <servlet-class>control.InfoTypeAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoTypeJumpServlet</servlet-name>
+    <servlet-class>control.InfoTypeJumpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoTypeAllServlet</servlet-name>
+    <servlet-class>control.InfoTypeAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoTypeDeleteServlet</servlet-name>
+    <servlet-class>control.InfoTypeDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InformationAllServlet</servlet-name>
+    <servlet-class>control.InformationAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoDetailServlet</servlet-name>
+    <servlet-class>control.InfoDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoDeleteServlet</servlet-name>
+    <servlet-class>control.InfoDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>control.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoAddServlet</servlet-name>
+    <servlet-class>control.InfoAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoJumpServlet</servlet-name>
+    <servlet-class>control.InfoJumpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateInfoServlet</servlet-name>
+    <servlet-class>control.UpdateInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>control.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyPubInfoServlet</servlet-name>
+    <servlet-class>control.MyPubInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InfoFindByTypeServlet</servlet-name>
+    <servlet-class>control.InfoFindByTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DiscussAddServlet</servlet-name>
+    <servlet-class>control.DiscussAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindDiscussServlet</servlet-name>
+    <servlet-class>control.FindDiscussServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindAllDiscuss</servlet-name>
+    <servlet-class>control.FindAllDiscuss</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DiscussDelete</servlet-name>
+    <servlet-class>control.DiscussDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyDiscussServlet</servlet-name>
+    <servlet-class>control.MyDiscussServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DiscussMyServlet</servlet-name>
+    <servlet-class>control.DiscussMyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryAllUsersServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>control.QueryAllUsersServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <url-pattern>/CheckImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VisitServlet</servlet-name>
+    <url-pattern>/VisitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamServlet</servlet-name>
+    <url-pattern>/ExamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForgetPasswordServlet</servlet-name>
+    <url-pattern>/ForgetPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <url-pattern>/UpdatePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllUserServlet</servlet-name>
+    <url-pattern>/QueryAllUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoTypeAddServlet</servlet-name>
+    <url-pattern>/InfoTypeAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoTypeJumpServlet</servlet-name>
+    <url-pattern>/InfoTypeJumpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoTypeAllServlet</servlet-name>
+    <url-pattern>/InfoTypeAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoTypeDeleteServlet</servlet-name>
+    <url-pattern>/InfoTypeDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InformationAllServlet</servlet-name>
+    <url-pattern>/InformationAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoDetailServlet</servlet-name>
+    <url-pattern>/InfoDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoDeleteServlet</servlet-name>
+    <url-pattern>/InfoDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoAddServlet</servlet-name>
+    <url-pattern>/InfoAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoJumpServlet</servlet-name>
+    <url-pattern>/InfoJumpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateInfoServlet</servlet-name>
+    <url-pattern>/UpdateInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/UserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyPubInfoServlet</servlet-name>
+    <url-pattern>/MyPubInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoFindByTypeServlet</servlet-name>
+    <url-pattern>/InfoFindByTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DiscussAddServlet</servlet-name>
+    <url-pattern>/DiscussAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindDiscussServlet</servlet-name>
+    <url-pattern>/FindDiscussServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllDiscuss</servlet-name>
+    <url-pattern>/FindAllDiscuss</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DiscussDelete</servlet-name>
+    <url-pattern>/DiscussDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyDiscussServlet</servlet-name>
+    <url-pattern>/MyDiscussServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DiscussMyServlet</servlet-name>
+    <url-pattern>/DiscussMyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllUsersServlet</servlet-name>
+    <url-pattern>/QueryAllUsersServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
+

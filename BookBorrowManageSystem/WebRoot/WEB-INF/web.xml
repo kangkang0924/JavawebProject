@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeQueryAllServlet</servlet-name>
+    <servlet-class>servlet.BookTypeQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeAddServlet</servlet-name>
+    <servlet-class>servlet.BookTypeAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookInfoFindByIdServlet</servlet-name>
+    <servlet-class>servlet.BookInfoFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeFindByIdServlet</servlet-name>
+    <servlet-class>servlet.BookTypeFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeUpdateServlet</servlet-name>
+    <servlet-class>servlet.BookTypeUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeDeleteServlet</servlet-name>
+    <servlet-class>servlet.BookTypeDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookInfoQueryAllServlet</servlet-name>
+    <servlet-class>servlet.BookInfoQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookInfoAddServlet</servlet-name>
+    <servlet-class>servlet.BookInfoAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookInfoDeleteServlet</servlet-name>
+    <servlet-class>servlet.BookInfoDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookInfoUpdateServlet</servlet-name>
+    <servlet-class>servlet.BookInfoUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderTypeAddServlet</servlet-name>
+    <servlet-class>servlet.ReaderTypeAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderTypeDeleteServlet</servlet-name>
+    <servlet-class>servlet.ReaderTypeDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderTypeFindByIdServlet</servlet-name>
+    <servlet-class>servlet.ReaderTypeFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderTypeQueryAllServlet</servlet-name>
+    <servlet-class>servlet.ReaderTypeQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderTypeUpdateServlet</servlet-name>
+    <servlet-class>servlet.ReaderTypeUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderInfoAddServlet</servlet-name>
+    <servlet-class>servlet.ReaderInfoAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderInfoDeleteServlet</servlet-name>
+    <servlet-class>servlet.ReaderInfoDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderInfoFindByIdServlet</servlet-name>
+    <servlet-class>servlet.ReaderInfoFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderInfoQueryAllServlet</servlet-name>
+    <servlet-class>servlet.ReaderInfoQueryAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderInfoUpdateServlet</servlet-name>
+    <servlet-class>servlet.ReaderInfoUpdateServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <filter>
+    <display-name>EncodingFilter</display-name>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>filter.EncodingFilter</filter-class>
+    <init-param>
+    	<param-name>code</param-name>
+    	<param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeQueryAllServlet</servlet-name>
+    <url-pattern>/BookTypeQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeAddServlet</servlet-name>
+    <url-pattern>/BookTypeAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInfoFindByIdServlet</servlet-name>
+    <url-pattern>/BookInfoFindByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeFindByIdServlet</servlet-name>
+    <url-pattern>/BookTypeFindByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeUpdateServlet</servlet-name>
+    <url-pattern>/BookTypeUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeDeleteServlet</servlet-name>
+    <url-pattern>/BookTypeDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInfoQueryAllServlet</servlet-name>
+    <url-pattern>/BookInfoQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInfoAddServlet</servlet-name>
+    <url-pattern>/BookInfoAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInfoDeleteServlet</servlet-name>
+    <url-pattern>/BookInfoDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInfoUpdateServlet</servlet-name>
+    <url-pattern>/BookInfoUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderTypeAddServlet</servlet-name>
+    <url-pattern>/ReaderTypeAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderTypeDeleteServlet</servlet-name>
+    <url-pattern>/ReaderTypeDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderTypeFindByIdServlet</servlet-name>
+    <url-pattern>/ReaderTypeFindByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderTypeQueryAllServlet</servlet-name>
+    <url-pattern>/ReaderTypeQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderTypeUpdateServlet</servlet-name>
+    <url-pattern>/ReaderTypeUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderInfoAddServlet</servlet-name>
+    <url-pattern>/ReaderInfoAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderInfoDeleteServlet</servlet-name>
+    <url-pattern>/ReaderInfoDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderInfoFindByIdServlet</servlet-name>
+    <url-pattern>/ReaderInfoFindByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderInfoQueryAllServlet</servlet-name>
+    <url-pattern>/ReaderInfoQueryAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderInfoUpdateServlet</servlet-name>
+    <url-pattern>/ReaderInfoUpdateServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
